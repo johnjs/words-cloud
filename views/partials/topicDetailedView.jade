@@ -1,0 +1,9 @@
+h3 Information on topic "<%= label %>"
+br
+h4 Total Mentions: <%= volume %>
+br
+h4 Positive Mentions:
+    span.positive-sentiment  <%= sentiment.positive || 0 %>
+h4 Neutral Mentions: <%= sentiment.neutral || 0 %>
+h4 Negative Mentions:
+    span.negative-sentiment  <%= sentiment.negative || 0 %>

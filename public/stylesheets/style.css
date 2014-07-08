@@ -1,0 +1,19 @@
+.words-cloud text:hover {
+    opacity:0.7;
+    cursor: pointer;
+}
+
+.positive-sentiment{
+    color:#47A347;
+}
+
+.negative-sentiment{
+    color:#E68080;
+}
+
+.main-title{
+    font-family: "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 50;
+    padding-left: 60px;
+    padding-top: 20px;
+}
